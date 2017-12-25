@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CCE8EA51FF09A33007BDC3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCE8EA41FF09A33007BDC3C /* AppDelegate.m */; };
+		5CCE8EA81FF09A33007BDC3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCE8EA71FF09A33007BDC3C /* ViewController.m */; };
+		5CCE8EAB1FF09A33007BDC3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCE8EA91FF09A33007BDC3C /* Main.storyboard */; };
+		5CCE8EAD1FF09A33007BDC3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CCE8EAC1FF09A33007BDC3C /* Assets.xcassets */; };
+		5CCE8EB01FF09A33007BDC3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCE8EAE1FF09A33007BDC3C /* LaunchScreen.storyboard */; };
+		5CCE8EB31FF09A33007BDC3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCE8EB21FF09A33007BDC3C /* main.m */; };
+		5CCE8EBD1FF09A33007BDC3C /* MovoTextFieldToNavBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCE8EBC1FF09A33007BDC3C /* MovoTextFieldToNavBarTests.m */; };
+		5CCE8EC81FF09A33007BDC3C /* MovoTextFieldToNavBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCE8EC71FF09A33007BDC3C /* MovoTextFieldToNavBarUITests.m */; };
+		5CCE8ED71FF0A177007BDC3C /* TextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCE8ED61FF0A177007BDC3C /* TextFieldView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CCE8EB91FF09A33007BDC3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CCE8E981FF09A33007BDC3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CCE8E9F1FF09A33007BDC3C;
+			remoteInfo = MovoTextFieldToNavBar;
+		};
+		5CCE8EC41FF09A33007BDC3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CCE8E981FF09A33007BDC3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CCE8E9F1FF09A33007BDC3C;
+			remoteInfo = MovoTextFieldToNavBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CCE8EA01FF09A33007BDC3C /* MovoTextFieldToNavBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovoTextFieldToNavBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCE8EA31FF09A33007BDC3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CCE8EA41FF09A33007BDC3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CCE8EA61FF09A33007BDC3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CCE8EA71FF09A33007BDC3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CCE8EAA1FF09A33007BDC3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CCE8EAC1FF09A33007BDC3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CCE8EAF1FF09A33007BDC3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CCE8EB11FF09A33007BDC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CCE8EB21FF09A33007BDC3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CCE8EB81FF09A33007BDC3C /* MovoTextFieldToNavBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovoTextFieldToNavBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCE8EBC1FF09A33007BDC3C /* MovoTextFieldToNavBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovoTextFieldToNavBarTests.m; sourceTree = "<group>"; };
+		5CCE8EBE1FF09A33007BDC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CCE8EC31FF09A33007BDC3C /* MovoTextFieldToNavBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovoTextFieldToNavBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCE8EC71FF09A33007BDC3C /* MovoTextFieldToNavBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovoTextFieldToNavBarUITests.m; sourceTree = "<group>"; };
+		5CCE8EC91FF09A33007BDC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CCE8ED51FF0A177007BDC3C /* TextFieldView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldView.h; sourceTree = "<group>"; };
+		5CCE8ED61FF0A177007BDC3C /* TextFieldView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CCE8E9D1FF09A33007BDC3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCE8EB51FF09A33007BDC3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCE8EC01FF09A33007BDC3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CCE8E971FF09A33007BDC3C = {
+			isa = PBXGroup;
+			children = (
+				5CCE8EA21FF09A33007BDC3C /* MovoTextFieldToNavBar */,
+				5CCE8EBB1FF09A33007BDC3C /* MovoTextFieldToNavBarTests */,
+				5CCE8EC61FF09A33007BDC3C /* MovoTextFieldToNavBarUITests */,
+				5CCE8EA11FF09A33007BDC3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CCE8EA11FF09A33007BDC3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CCE8EA01FF09A33007BDC3C /* MovoTextFieldToNavBar.app */,
+				5CCE8EB81FF09A33007BDC3C /* MovoTextFieldToNavBarTests.xctest */,
+				5CCE8EC31FF09A33007BDC3C /* MovoTextFieldToNavBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CCE8EA21FF09A33007BDC3C /* MovoTextFieldToNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				5CCE8EA31FF09A33007BDC3C /* AppDelegate.h */,
+				5CCE8EA41FF09A33007BDC3C /* AppDelegate.m */,
+				5CCE8EA61FF09A33007BDC3C /* ViewController.h */,
+				5CCE8EA71FF09A33007BDC3C /* ViewController.m */,
+				5CCE8ED51FF0A177007BDC3C /* TextFieldView.h */,
+				5CCE8ED61FF0A177007BDC3C /* TextFieldView.m */,
+				5CCE8EA91FF09A33007BDC3C /* Main.storyboard */,
+				5CCE8EAC1FF09A33007BDC3C /* Assets.xcassets */,
+				5CCE8EAE1FF09A33007BDC3C /* LaunchScreen.storyboard */,
+				5CCE8EB11FF09A33007BDC3C /* Info.plist */,
+				5CCE8EB21FF09A33007BDC3C /* main.m */,
+			);
+			path = MovoTextFieldToNavBar;
+			sourceTree = "<group>";
+		};
+		5CCE8EBB1FF09A33007BDC3C /* MovoTextFieldToNavBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CCE8EBC1FF09A33007BDC3C /* MovoTextFieldToNavBarTests.m */,
+				5CCE8EBE1FF09A33007BDC3C /* Info.plist */,
+			);
+			path = MovoTextFieldToNavBarTests;
+			sourceTree = "<group>";
+		};
+		5CCE8EC61FF09A33007BDC3C /* MovoTextFieldToNavBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CCE8EC71FF09A33007BDC3C /* MovoTextFieldToNavBarUITests.m */,
+				5CCE8EC91FF09A33007BDC3C /* Info.plist */,
+			);
+			path = MovoTextFieldToNavBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CCE8E9F1FF09A33007BDC3C /* MovoTextFieldToNavBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CCE8ECC1FF09A33007BDC3C /* Build configuration list for PBXNativeTarget "MovoTextFieldToNavBar" */;
+			buildPhases = (
+				5CCE8E9C1FF09A33007BDC3C /* Sources */,
+				5CCE8E9D1FF09A33007BDC3C /* Frameworks */,
+				5CCE8E9E1FF09A33007BDC3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MovoTextFieldToNavBar;
+			productName = MovoTextFieldToNavBar;
+			productReference = 5CCE8EA01FF09A33007BDC3C /* MovoTextFieldToNavBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CCE8EB71FF09A33007BDC3C /* MovoTextFieldToNavBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CCE8ECF1FF09A33007BDC3C /* Build configuration list for PBXNativeTarget "MovoTextFieldToNavBarTests" */;
+			buildPhases = (
+				5CCE8EB41FF09A33007BDC3C /* Sources */,
+				5CCE8EB51FF09A33007BDC3C /* Frameworks */,
+				5CCE8EB61FF09A33007BDC3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CCE8EBA1FF09A33007BDC3C /* PBXTargetDependency */,
+			);
+			name = MovoTextFieldToNavBarTests;
+			productName = MovoTextFieldToNavBarTests;
+			productReference = 5CCE8EB81FF09A33007BDC3C /* MovoTextFieldToNavBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CCE8EC21FF09A33007BDC3C /* MovoTextFieldToNavBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CCE8ED21FF09A33007BDC3C /* Build configuration list for PBXNativeTarget "MovoTextFieldToNavBarUITests" */;
+			buildPhases = (
+				5CCE8EBF1FF09A33007BDC3C /* Sources */,
+				5CCE8EC01FF09A33007BDC3C /* Frameworks */,
+				5CCE8EC11FF09A33007BDC3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CCE8EC51FF09A33007BDC3C /* PBXTargetDependency */,
+			);
+			name = MovoTextFieldToNavBarUITests;
+			productName = MovoTextFieldToNavBarUITests;
+			productReference = 5CCE8EC31FF09A33007BDC3C /* MovoTextFieldToNavBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CCE8E981FF09A33007BDC3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "王少帅";
+				TargetAttributes = {
+					5CCE8E9F1FF09A33007BDC3C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5CCE8EB71FF09A33007BDC3C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CCE8E9F1FF09A33007BDC3C;
+					};
+					5CCE8EC21FF09A33007BDC3C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CCE8E9F1FF09A33007BDC3C;
+					};
+				};
+			};
+			buildConfigurationList = 5CCE8E9B1FF09A33007BDC3C /* Build configuration list for PBXProject "MovoTextFieldToNavBar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CCE8E971FF09A33007BDC3C;
+			productRefGroup = 5CCE8EA11FF09A33007BDC3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CCE8E9F1FF09A33007BDC3C /* MovoTextFieldToNavBar */,
+				5CCE8EB71FF09A33007BDC3C /* MovoTextFieldToNavBarTests */,
+				5CCE8EC21FF09A33007BDC3C /* MovoTextFieldToNavBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CCE8E9E1FF09A33007BDC3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCE8EB01FF09A33007BDC3C /* LaunchScreen.storyboard in Resources */,
+				5CCE8EAD1FF09A33007BDC3C /* Assets.xcassets in Resources */,
+				5CCE8EAB1FF09A33007BDC3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCE8EB61FF09A33007BDC3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCE8EC11FF09A33007BDC3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CCE8E9C1FF09A33007BDC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCE8EA81FF09A33007BDC3C /* ViewController.m in Sources */,
+				5CCE8EB31FF09A33007BDC3C /* main.m in Sources */,
+				5CCE8ED71FF0A177007BDC3C /* TextFieldView.m in Sources */,
+				5CCE8EA51FF09A33007BDC3C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCE8EB41FF09A33007BDC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCE8EBD1FF09A33007BDC3C /* MovoTextFieldToNavBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCE8EBF1FF09A33007BDC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCE8EC81FF09A33007BDC3C /* MovoTextFieldToNavBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CCE8EBA1FF09A33007BDC3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CCE8E9F1FF09A33007BDC3C /* MovoTextFieldToNavBar */;
+			targetProxy = 5CCE8EB91FF09A33007BDC3C /* PBXContainerItemProxy */;
+		};
+		5CCE8EC51FF09A33007BDC3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CCE8E9F1FF09A33007BDC3C /* MovoTextFieldToNavBar */;
+			targetProxy = 5CCE8EC41FF09A33007BDC3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CCE8EA91FF09A33007BDC3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CCE8EAA1FF09A33007BDC3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CCE8EAE1FF09A33007BDC3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CCE8EAF1FF09A33007BDC3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CCE8ECA1FF09A33007BDC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CCE8ECB1FF09A33007BDC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CCE8ECD1FF09A33007BDC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7UJH8VTQUX;
+				INFOPLIST_FILE = MovoTextFieldToNavBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.impcredit.MovoTextFieldToNavBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CCE8ECE1FF09A33007BDC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7UJH8VTQUX;
+				INFOPLIST_FILE = MovoTextFieldToNavBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.impcredit.MovoTextFieldToNavBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5CCE8ED01FF09A33007BDC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MovoTextFieldToNavBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.impcredit.MovoTextFieldToNavBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovoTextFieldToNavBar.app/MovoTextFieldToNavBar";
+			};
+			name = Debug;
+		};
+		5CCE8ED11FF09A33007BDC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MovoTextFieldToNavBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.impcredit.MovoTextFieldToNavBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovoTextFieldToNavBar.app/MovoTextFieldToNavBar";
+			};
+			name = Release;
+		};
+		5CCE8ED31FF09A33007BDC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MovoTextFieldToNavBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.impcredit.MovoTextFieldToNavBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MovoTextFieldToNavBar;
+			};
+			name = Debug;
+		};
+		5CCE8ED41FF09A33007BDC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MovoTextFieldToNavBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.impcredit.MovoTextFieldToNavBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MovoTextFieldToNavBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CCE8E9B1FF09A33007BDC3C /* Build configuration list for PBXProject "MovoTextFieldToNavBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCE8ECA1FF09A33007BDC3C /* Debug */,
+				5CCE8ECB1FF09A33007BDC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CCE8ECC1FF09A33007BDC3C /* Build configuration list for PBXNativeTarget "MovoTextFieldToNavBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCE8ECD1FF09A33007BDC3C /* Debug */,
+				5CCE8ECE1FF09A33007BDC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CCE8ECF1FF09A33007BDC3C /* Build configuration list for PBXNativeTarget "MovoTextFieldToNavBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCE8ED01FF09A33007BDC3C /* Debug */,
+				5CCE8ED11FF09A33007BDC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CCE8ED21FF09A33007BDC3C /* Build configuration list for PBXNativeTarget "MovoTextFieldToNavBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCE8ED31FF09A33007BDC3C /* Debug */,
+				5CCE8ED41FF09A33007BDC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CCE8E981FF09A33007BDC3C /* Project object */;
+}

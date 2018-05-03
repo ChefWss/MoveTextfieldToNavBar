@@ -20,6 +20,7 @@
         
         UIImageView *imgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"搜索"]];
         [self addSubview:imgView];
+        //没有适配屏幕
         imgView.frame = CGRectMake(8, 8, 44-7-7-8-8, 44-7-7-8-8);
         
     }

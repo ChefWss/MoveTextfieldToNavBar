@@ -26,11 +26,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     [self createUI];
 }
 
-- (void)createUI {
+- (void)createUI
+{
     self.view.backgroundColor = [UIColor lightGrayColor];
     
     self.navBarView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kWIDTH, 64)];
@@ -66,7 +66,8 @@
 }
 
 #pragma mark - 监听
-- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context{
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
+{
     if ([keyPath isEqualToString:@"contentOffset"]){
         CGPoint offset = [change[NSKeyValueChangeNewKey] CGPointValue];
         CGFloat offset_y = offset.y;

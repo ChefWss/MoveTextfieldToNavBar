@@ -26,11 +26,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     [self createUI];
 }
 
 - (void)createUI
 {
+    //背景颜色
     self.view.backgroundColor = [UIColor lightGrayColor];
     
     self.navBarView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kWIDTH, 64)];
@@ -68,12 +70,14 @@
 #pragma mark - 监听
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
-    if ([keyPath isEqualToString:@"contentOffset"]){
+    if ([keyPath isEqualToString:@"contentOffset"])
+    {
         CGPoint offset = [change[NSKeyValueChangeNewKey] CGPointValue];
         CGFloat offset_y = offset.y;
         NSLog(@"偏移量offset_y = %.2f",offset_y);
         
-        if (offset_y <= 0.00) {
+        if (offset_y <= 0.00)
+        {
             CGFloat x = 10;
             CGFloat y = (64+7) - (((64+7) - (20+7)) / 44.000 * offset_y);
             CGFloat w = kWIDTH-10-10;
@@ -81,11 +85,13 @@
             self.textFieldView.frame = CGRectMake(x, y, w, h);
             self.navTitleLabel.textColor = [UIColor colorWithRed:0.16 green:0.17 blue:0.20 alpha:1.00];
         }
-        else if (offset_y >= 44.00) {
+        else if (offset_y >= 44.00)
+        {
             self.textFieldView.frame = CGRectMake(44, 20+7, kWIDTH-44-10, 44-7-7);
             self.navTitleLabel.textColor = [[UIColor colorWithRed:0.16 green:0.17 blue:0.20 alpha:1.00] colorWithAlphaComponent:0];
         }
-        else {
+        else
+        {
             CGFloat x = (44 - 10) / 44.000 * offset_y + (10);
             CGFloat y = (64+7) - (((64+7) - (20+7)) / 44.000 * offset_y);
             CGFloat w = (kWIDTH-10-10) - (((kWIDTH-10-10) - (kWIDTH-44-10)) / 44.000 * offset_y);
@@ -97,17 +103,21 @@
 }
 
 #pragma mark - tableView delegates
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
     return 20;
 }
 
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
     return 80;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
-    if (!cell) {
+    if (!cell)
+    {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
         cell.backgroundColor = kRandomColor;
         cell.selectionStyle = 0;

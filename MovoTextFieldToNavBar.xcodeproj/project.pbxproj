@@ -440,7 +440,7 @@
 				DEVELOPMENT_TEAM = 7UJH8VTQUX;
 				INFOPLIST_FILE = MovoTextFieldToNavBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.impcredit.MovoTextFieldToNavBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.impcredit.MovoTextFieldToNavBar1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,7 +454,7 @@
 				DEVELOPMENT_TEAM = 7UJH8VTQUX;
 				INFOPLIST_FILE = MovoTextFieldToNavBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.impcredit.MovoTextFieldToNavBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.impcredit.MovoTextFieldToNavBar1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -35,6 +35,7 @@
     //背景颜色
     self.view.backgroundColor = [UIColor lightGrayColor];
     
+    //一个假的navbar
     self.navBarView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kWIDTH, 64)];
     [self.view addSubview:self.navBarView];
     self.navBarView.backgroundColor = [UIColor whiteColor];
@@ -119,9 +120,9 @@
     if (!cell)
     {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
-        cell.backgroundColor = kRandomColor;
         cell.selectionStyle = 0;
     }
+    cell.backgroundColor = kRandomColor;
     return cell;
 }
 
